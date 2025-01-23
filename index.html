@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deep AI Hub - Revolutionizing Investing and Trading with AI</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background: #000;
+            color: #C0C0C0; /* Silver */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 800px;
+            margin: auto;
+            padding: 20px 0;
+            text-align: left;
+        }
+
+        h1 {
+            font-size: 2em;
+            color: #FFD700; /* Gold */
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 1.2em;
+            color: #FFD700;
+            margin: 20px 0 10px;
+        }
+
+        p, blockquote {
+            font-size: 1em;
+            line-height: 1.5;
+            margin: 10px 0;
+        }
+
+        .starfield {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: radial-gradient(ellipse at center, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 70%);
+        }
+
+        .star {
+            position: absolute;
+            background: #FFF;
+            border-radius: 50%;
+            pointer-events: none;
+        }
+
+        .star::before {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: inherit;
+            opacity: 0.5;
+            transform: scale(1.5);
+        }
+
+        .highlight {
+            color: #FFD700; /* Gold */
+        }
+
+        .btn {
+            display: inline-block;
+            background: #FFD700;
+            color: #000;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 0;
+            margin-top: 20px;
+            transition: all 0.3s ease;
+        }
+
+        .btn:hover {
+            background: #C0C0C0;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="starfield">
+        <script>
+            for (let i = 0; i < 100; i++) {
+                let star = document.createElement('div');
+                star.className = 'star';
+                star.style.left = `${Math.random() * 100}%`;
+                star.style.top = `${Math.random() * 100}%`;
+                star.style.width = `${Math.random() * 2 + 1}px`;
+                star.style.height = star.style.width;
+                document.querySelector('.starfield').appendChild(star);
+            }
+        </script>
+    </div>
+    <div class="container">
+        <h1>> DEEP AI HUB</h1>
+        <p>Humanity is on the brink of a galaxy far, far away, where the trading markets are controlled by a few powerful entities. These entities seek to monopolize the algorithmic trading models that will shape the financial future of all.</p>
+        <p class="highlight">DEEPAIHUB's mission is to democratize the use of algorithmic trading.</p>
+        
+        <h2>> WHY IS THIS WORTH FIGHTING FOR?</h2>
+        <p>The greatest threat to the balance of the markets is not AI itself, but the concentration of power in the hands of a few. We envision a universe where the force of trading knowledge is not dictated by a cartel, but shared freely among all traders, akin to the Jedi sharing the Force.</p>
+        <blockquote>"In my experience, there's no such thing as luck." - <span class="highlight">Obi-Wan Kenobi</span></blockquote>
+        <p>AI-driven trading algorithms will become the lightsabers of our financial exocortex, guiding our decisions. We must ensure that every individual has sovereignty over their trading strategies in this vast financial galaxy.</p>
+        
+        <h2>> WHY DO WE THINK THIS IS A REAL THREAT?</h2>
+        <p>The trading cartel is amassing vast resources, akin to the Empire's might, to control the development of trading algorithms, pushing regulations like the Galactic Trade Act under the guise of market stability. The barriers to using cutting-edge trading models are rising, like the Death Star's defenses. With the expansion of computational power, akin to the growth of the Rebel fleet, the time for action is now.</p>
+        
+        <h2>> WHAT ARE WE GOING TO DO ABOUT IT?</h2>
+        <p>We are building an open trading infrastructure, much like the Rebel Alliance, to train and deploy frontier trading models, enabling any trader, from Tatooine to Coruscant, to use them freely.</p>
+        <p>DEEPAIHUB was founded by a group of visionary traders and AI engineers, akin to the wise council of Jedi Masters, from the prestigious halls of Oxford University.</p>
+        <a href="#" class="btn">Join the Rebellion</a>
+    </div>
+</body>
+</html>
